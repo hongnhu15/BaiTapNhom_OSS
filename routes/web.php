@@ -16,9 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/dashboard', function () {
+/*Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+require __DIR__.'/auth.php';*/
+
+
+
+Route::get('/gems','App\Http\Controllers\LayoutController@gems');
+Route::get('/gems/loaisanpham/{id}','App\Http\Controllers\LayoutController@loaisanpham');
+Route::get('gems/chitiet/{id}','App\Http\Controllers\LayoutController@chitiet');
+
+
