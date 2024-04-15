@@ -6,29 +6,29 @@
 </head>
 <style>
     .navbar {
-background-color: #F6F4F3;
+background-color: #340a0a;
 font-weight:bold;
 }
 .nav-item a {
-color: #fff!important;
+color: #ffffff;
 }
 .navbar-nav {
 margin:0 auto;
 }
-.list-book{
+.list-gems{
 display:grid;
 grid-template-columns:repeat(4,24%);
 }
-.book {
+.gems {
 margin:10px;
 text-align:center;
 }
 </style>
 <body>
 <header style='text-align:center'>
-<img src="{{asset('images/banner.png')}}" width="1000px">
+<img src="{{asset('images/banner.png')}}" width="1423px">
 </header>
-<main style="width:1000px; margin:2px auto;">
+<main style="width:1400px; margin:2px auto;">
 <div class='row'>
 <div class='col-3 pr-0'>
 <nav class="navbar navbar-light">
@@ -38,10 +38,10 @@ text-align:center;
 <a class="nav-link" href="{{url('gems')}}">Trang chủ</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="{{url('gems/theloai/1')}}">Vòng đá phong thủy</a>
+<a class="nav-link" href="{{url('gems/loaisanpham/1')}}">Vòng đá phong thủy</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="{{url('gems/theloai/2')}}">Vòng đá trang sức</a>
+<a class="nav-link" href="{{url('gems/loaisanpham/2')}}">Vòng đá trang sức</a>
 </li>
 </ul>
 </ul>
