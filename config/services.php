@@ -29,5 +29,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-
+    'facebook' => [
+        'client_id' => '327686663288436',
+        'client_secret' => '41faf9d7b7e75af957a72ae32924b9ad',
+        'redirect' => '/auth/facebook/callback',
+    ],
 ];
